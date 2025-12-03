@@ -2,7 +2,6 @@ instructions = []
 
 with open("instructions.txt", "r") as file:
     for line in file:
-        line = line.strip()
         if line:
             instructions.append(line)
 
@@ -23,4 +22,4 @@ for instr in instructions:
     if position == 0:
         count += 1
 
-print("Number of times dial pointed to 0:", count)
+print(count)
