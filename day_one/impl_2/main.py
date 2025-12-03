@@ -1,3 +1,4 @@
+#Author: Ioannis Michadasis 2025
 instructions = []
 
 with open("instructions.txt", "r") as file:
